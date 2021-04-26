@@ -1,9 +1,8 @@
 # Tic Tac Toe
 # James Taddei
-# 4/23/21
+# 4/26/21
 
 """ Need:
-A bit more testing for refactor
 GUI
 """
 
@@ -48,14 +47,14 @@ def main():
             elif (numOfPlayers == 2): # Player 1 win vs Player 2
                 return ("\n\nCongratulations player 1 on your victory against your opponent!")
             else: # Bot 1 win
-                return ("\n\nBot number 1 has run the epic battle against the other bot!")
+                return ("\n\nBot number 1 has won the epic battle against the other bot!")
         elif (winner == "O"): # Bot / Player 2 / Bot 2 win return
             if (numOfPlayers == 1): # Bot win vs Player
                 return ("\n\nThe bot has bested you! Better luck next time.")
             elif (numOfPlayers == 2): # Player 2 win vs Player 1
                 return ("\n\nCongratulations player 2 on your victory against your opponent!")
             else: # Bot 2 win
-                return ("\n\nBot number 2 rules the day after defeating the other bot!")
+                return ("\n\nBot number 2 rules the day after defeating bot 1!")
     else: # Retuns a draw message
         if (numOfPlayers == 1): # Draw in Player vs Bot
             return ("You have tied with the bot. Kind of anticlimactic. Hopefully you'll win next time.")
