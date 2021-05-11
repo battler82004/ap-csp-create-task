@@ -1,4 +1,4 @@
-# Tic Tac Toe GUI with guizero
+# Tic Tac Toe with GUI
 # James Taddei
 # 5/10/21
 
