@@ -7,10 +7,12 @@
 # all have the same name though and are stored in the list, we use
 # currBoard[pos].text = "X" instead.
 
+# This library was created by Laura Sach (lawsie) for the easy creation
+# of GUIs in Python 3.
 import guizero as gui
-from math import floor
-from random import randint
-from time import sleep
+from math import floor # this is a base Python library
+from random import randint # this is a base Python library
+from time import sleep # this is a base Python library
 
 def num_to_grid(gridNum):
   """
